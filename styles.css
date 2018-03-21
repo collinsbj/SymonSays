@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  height: 200px;
+  width: 200px;
+  color: white;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+section {
+  display: flex;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selected {
+  border: 30px solid white;
+}
